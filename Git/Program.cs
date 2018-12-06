@@ -10,9 +10,10 @@ namespace Git
     {
         static void Main(string[] args)
         {
-            int x = 5;
-            int y = 10;
-            Console.WriteLine("5 + 10 = {0}", x + y);
+            int x = Int32.Parse(Console.ReadLine());
+            int y = Int32.Parse(Console.ReadLine());
+            int c = x * y;
+            Console.WriteLine(c);
             Console.ReadKey();
         }
     }
